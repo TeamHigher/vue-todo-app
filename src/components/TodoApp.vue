@@ -75,6 +75,7 @@ export default {
     deleteTask(index) {
       this.tasks.splice(index, 1)
     },
+
     editTask(index) {
       this.task = this.tasks[index].name
       this.editedTask = index
